@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">1072773359913-18ud135adj2lv6hhgsd2j7a3pc6i9ujs.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://leisoc-827bf.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">1072773359913</string>
-    <string name="google_api_key" translatable="false">AIzaSyC291gEiwYo2n4fTwX1WBi88hvpFgpix5Y</string>
-    <string name="google_app_id" translatable="false">1:1072773359913:android:64fcda983dc166a7</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC291gEiwYo2n4fTwX1WBi88hvpFgpix5Y</string>
-    <string name="google_storage_bucket" translatable="false">leisoc-827bf.appspot.com</string>
-    <string name="project_id" translatable="false">leisoc-827bf</string>
+    <string name="default_web_client_id" translatable="false">1081008949918-ej6jfkch68pp4478e27cigvqqemj3907.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://talking-morse.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1081008949918</string>
+    <string name="google_api_key" translatable="false">AIzaSyCCuNN5KU6ZP2oEIOX5x62q4M1mv8S8pUc</string>
+    <string name="google_app_id" translatable="false">1:1081008949918:android:37bd8f2a582f977204098f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCCuNN5KU6ZP2oEIOX5x62q4M1mv8S8pUc</string>
+    <string name="google_storage_bucket" translatable="false">talking-morse.appspot.com</string>
+    <string name="project_id" translatable="false">talking-morse</string>
 </resources>

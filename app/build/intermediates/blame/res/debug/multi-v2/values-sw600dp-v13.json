@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/aman/Desktop/LEIsoc/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\aman\\Desktop\\Talking-Morse-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/aman/.gradle/caches/transforms-2/files-2.1/1768d7bc95283b69c280fe9cc7b5db3c/Android-SwitchDateTimePicker-1.9/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\aman\\.gradle\\caches\\transforms-2\\files-2.1\\deffe94baf56ac9f8fc62b90366c7b32\\appcompat-v7-26.0.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aman\\.gradle\\caches\\transforms-2\\files-2.1\\babab7e39f9074fdcade35d796b0ed39\\Android-SwitchDateTimePicker-1.9\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -21,17 +31,7 @@
                     }
                 },
                 {
-                    "source": "/home/aman/.gradle/caches/transforms-2/files-2.1/14d1e8fc896f1386043a6d166cf8c752/appcompat-v7-26.0.2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "/home/aman/.gradle/caches/transforms-2/files-2.1/bd6437fba8b7822198ec6b1d2bffaae2/design-26.0.2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\aman\\.gradle\\caches\\transforms-2\\files-2.1\\b2280d8e168236f890b0c4d84fd1bf5c\\design-26.0.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

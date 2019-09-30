@@ -71,9 +71,9 @@ public class RegisterActivity extends AppCompatActivity {
         mCreateBtn = (Button) findViewById(R.id.reg_create_btn);
          simpleToggleButton = (ToggleButton) findViewById(R.id.toggleButton);
 // displayed text of the toggle button whenever it is in checked or on state
-        simpleToggleButton.setTextOn("NDB");
+        simpleToggleButton.setTextOn("Specially-abled");
 // displayed text of the toggle button whenever it is in unchecked or off state
-        simpleToggleButton.setTextOff("DB");
+        simpleToggleButton.setTextOff("Normal");
 
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override

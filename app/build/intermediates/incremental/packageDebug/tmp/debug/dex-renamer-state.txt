@@ -1,7 +1,7 @@
-#Sun Sep 29 02:36:27 IST 2019
-base.0=/home/aman/Desktop/LEIsoc/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Mon Sep 30 14:43:36 IST 2019
+base.0=C\:\\Users\\aman\\Desktop\\Talking-Morse-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/aman/Desktop/LEIsoc/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=C\:\\Users\\aman\\Desktop\\Talking-Morse-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

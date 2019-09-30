@@ -115,7 +115,7 @@ public class FriendsFragment extends Fragment {
                             @Override
                             public void onClick(View view) {
 
-                                CharSequence options[] = new CharSequence[]{"Open Profile", "Send message","view schedule"};
+                                CharSequence options[] = new CharSequence[]{"Open Profile", "Send message"};
 
                                 final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
@@ -141,14 +141,7 @@ public class FriendsFragment extends Fragment {
                                             startActivity(chatIntent);
 
                                         }
-                                        if(i == 2){
 
-                                            Intent chatIntent = new Intent(getContext(), user_schedule.class);
-                                            chatIntent.putExtra("user_id", list_user_id);
-                                            chatIntent.putExtra("user_name", userName);
-                                            startActivity(chatIntent);
-
-                                        }
 
                                     }
                                 });

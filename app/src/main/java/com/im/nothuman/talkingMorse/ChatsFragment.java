@@ -162,7 +162,7 @@ public class ChatsFragment extends Fragment {
                                     @Override
                                     public void onDataChange(DataSnapshot dataSnapshot) {
                                         String df = dataSnapshot.getValue().toString() ;
-                                        if(df.equals("DB")){
+                                        if(df.equals("NORMAL")){
                                             Intent chatIntent = new Intent(getContext(), ChatActivity.class);
                                             chatIntent.putExtra("user_id", list_user_id);
                                             chatIntent.putExtra("user_name", userName);

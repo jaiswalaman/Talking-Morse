@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.tvac.akshaye.lapitchat"
+    package="com.im.nothuman.talkingMorse"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -12,24 +12,23 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
-0
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="in.tvac.akshaye.lapitchat.permission.C2D_MESSAGE"
+        android:name="com.im.nothuman.talkingMorse.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="in.tvac.akshaye.lapitchat.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.im.nothuman.talkingMorse.permission.C2D_MESSAGE" />
 
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
 
     <application
-        android:name="in.tvac.akshaye.lapitchat.LEIsoc"
+        android:name="com.im.nothuman.talkingMorse.talkingmorse"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/icon_3"
@@ -38,32 +37,30 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="in.tvac.akshaye.lapitchat.chat2_Activity" />
-        <activity android:name="in.tvac.akshaye.lapitchat.MainActivity" >
+        <activity android:name="com.im.nothuman.talkingMorse.chat2_Activity" />
+        <activity android:name="com.im.nothuman.talkingMorse.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="in.tvac.akshaye.lapitchat.StartActivity" />
+        <activity android:name="com.im.nothuman.talkingMorse.StartActivity" />
         <activity
-            android:name="in.tvac.akshaye.lapitchat.RegisterActivity"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.StartActivity" />
+            android:name="com.im.nothuman.talkingMorse.RegisterActivity"
+            android:parentActivityName="com.im.nothuman.talkingMorse.StartActivity" />
         <activity
-            android:name="in.tvac.akshaye.lapitchat.LoginActivity"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.StartActivity" />
-        <activity android:name="in.tvac.akshaye.lapitchat.SettingsActivity" />
+            android:name="com.im.nothuman.talkingMorse.LoginActivity"
+            android:parentActivityName="com.im.nothuman.talkingMorse.StartActivity" />
+        <activity android:name="com.im.nothuman.talkingMorse.SettingsActivity" />
         <activity
-            android:name="in.tvac.akshaye.lapitchat.StatusActivity"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.SettingsActivity" />
+            android:name="com.im.nothuman.talkingMorse.StatusActivity"
+            android:parentActivityName="com.im.nothuman.talkingMorse.SettingsActivity" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity
-            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat" />
-        <activity
-            android:name="in.tvac.akshaye.lapitchat.UsersActivity"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.MainActivity" />
-        <activity android:name="in.tvac.akshaye.lapitchat.ProfileActivity" >
+            android:name="com.im.nothuman.talkingMorse.UsersActivity"
+            android:parentActivityName="com.im.nothuman.talkingMorse.MainActivity" />
+        <activity android:name="com.im.nothuman.talkingMorse.ProfileActivity" >
             <intent-filter>
                 <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
 
@@ -71,14 +68,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="in.tvac.akshaye.lapitchat.ChatActivity"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.MainActivity" />
-        <activity android:name="in.tvac.akshaye.lapitchat.activity_select_time" />
+            android:name="com.im.nothuman.talkingMorse.ChatActivity"
+            android:parentActivityName="com.im.nothuman.talkingMorse.MainActivity" />
+        <activity android:name="com.im.nothuman.talkingMorse.activity_select_time" />
         <activity
-            android:name="in.tvac.akshaye.lapitchat.user_schedule"
-            android:parentActivityName="in.tvac.akshaye.lapitchat.MainActivity" />
+            android:name="com.im.nothuman.talkingMorse.user_schedule"
+            android:parentActivityName="com.im.nothuman.talkingMorse.MainActivity" />
 
-        <service android:name="in.tvac.akshaye.lapitchat.FirebaseMessagingService" >
+        <service android:name="com.im.nothuman.talkingMorse.FirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -110,31 +107,6 @@
             </intent-filter>
         </service>
 
-        <receiver
-            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-            android:enabled="true"
-            android:exported="false" >
-        </receiver>
-        <receiver
-            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES" >
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.google.android.gms.measurement.AppMeasurementService"
-            android:enabled="true"
-            android:exported="false" />
-        <service
-            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-            android:enabled="true"
-            android:exported="false"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -147,7 +119,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="in.tvac.akshaye.lapitchat" />
+                <category android:name="com.im.nothuman.talkingMorse" />
             </intent-filter>
         </receiver>
         <!--
@@ -164,7 +136,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="in.tvac.akshaye.lapitchat.firebaseinitprovider"
+            android:authorities="com.im.nothuman.talkingMorse.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
     </application>

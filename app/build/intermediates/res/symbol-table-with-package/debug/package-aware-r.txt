@@ -1,4 +1,4 @@
-in.tvac.akshaye.lapitchat
+com.im.nothuman.talkingMorse
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1366,7 +1366,6 @@ mipmap ic_launcher_round
 mipmap icon_1
 mipmap icon_2
 mipmap icon_3
-mipmap icon_4
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format

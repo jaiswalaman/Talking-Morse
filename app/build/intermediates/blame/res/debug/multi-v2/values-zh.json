@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/aman/Desktop/LEIsoc/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "C:\\Users\\aman\\Desktop\\Talking-Morse-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "/home/aman/.gradle/caches/transforms-2/files-2.1/92f2d203c302113f04b797deaecb3838/android-image-cropper-2.4.7/res/values-zh/values-zh.xml",
+                    "source": "C:\\Users\\aman\\.gradle\\caches\\transforms-2\\files-2.1\\f3f729204621bfbb451010bd8884a2ce\\android-image-cropper-2.4.7\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
