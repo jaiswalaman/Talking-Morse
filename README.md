@@ -5,3 +5,4 @@ Talking Morse uses Morse Code which allows deafblind to chat with people. In Mor
 
 
  Demo video :- https://www.youtube.com/watch?v=YSorK6pcb1k&t=16s
+               https://devfolio.co/submissions/talking-morse
